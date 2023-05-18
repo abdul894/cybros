@@ -1,0 +1,147 @@
+html{
+    height: 100%
+}
+
+#logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 3rem 1rem;
+}
+
+.navbar {
+    padding: 1;
+    background-image: linear-gradient(to right, darkslategray, black);
+}
+
+#menue {
+    filter: invert(100%)
+}
+
+#intro {
+    font-size: 12px;
+    color: #fff;
+    height: 95vh;
+    padding: 2rem calc((100vw - 1440px) / 2);
+}
+
+.hidden {
+    opacity: 0;
+    transition: opacity 3s ease-in-out;
+
+}
+
+.show {
+    opacity: 1;
+}
+
+#Expertise {
+    margin-top: 30px;
+    padding: 25px;
+    font-size: 16px;
+}
+
+body {
+    background-image: url('Image-web.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+.containers {
+    font-size: 16px;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about p {
+    margin-top: 1rem;
+}
+
+.content {
+    text-align: center;
+}
+
+.content p {
+    font-size: 16px;
+}
+
+
+.intro {
+    margin-top: 25px;
+    padding: 0 1rem;
+    font-size: 16px;
+}
+
+.contactInfo {
+    padding: 25px;
+}
+
+.container-services {
+    font-size: 14px;
+    padding: 0 1.5rem;
+}
+
+@media (max-width: 1280px) {
+    #Expertise {
+        margin-top: 35px;
+        padding: 0 4rem;
+        font-size: 19px;
+    }
+
+    .intro {
+        margin-top: 25px;
+        padding: 0 3rem;
+        font-size: 19px;
+    }
+
+    .container-services {
+        font-size: 16px;
+        padding: 0 3rem;
+    }
+}
+
+@media (max-width: 576px) and (max-width: 1280px) {
+    #Expertise {
+        margin-top: 30px;
+        padding: 25px;
+        font-size: 16px;
+    }
+
+    .intro {
+        margin-top: 25px;
+        padding: 0 1rem;
+        font-size: 16px;
+    }
+
+    .container-services {
+        font-size: 12px;
+        padding: 0 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    #Expertise {
+        margin-top: 20px;
+        padding: 45px;
+        font-size: 19px;
+    }
+
+    .intro {
+        margin-top: 25px;
+        padding: 0 2rem;
+        font-size: 19px;
+    }
+
+    .container-services {
+        font-size: 12px;
+        padding: 0 2rem;
+    }
+}
